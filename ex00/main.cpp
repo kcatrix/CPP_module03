@@ -3,9 +3,10 @@
 int	main()
 {
 	ClapTrap Paolo("Paolo");
-	Paolo.attack("chibre chibre");
-	Paolo.attack("chibre chibre");
+	Paolo.attack("jean claude");
+	Paolo.takeDamage(5);
+	Paolo.beRepaired(5);
 	Paolo.takeDamage(5);
 	Paolo.takeDamage(5);
-	Paolo.attack("chibre chibre");
+	Paolo.attack("jean claude");
 }

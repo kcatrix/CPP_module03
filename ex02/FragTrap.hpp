@@ -14,6 +14,9 @@ class FragTrap : public ClapTrap
                 FragTrap(std::string name);
                 ~FragTrap( void );
 
+		int Hit_points;
+		int Energy_points;
+		int Attack_damage;
 		void attack(const std::string& target);
 		void highFiveGuys( void );
 
